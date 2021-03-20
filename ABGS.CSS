@@ -20,14 +20,14 @@ body
 .title
 {
 	text-align:center;
-	font-size:25;
+	font-size:25px;
 	font-weight: bold;
 	color: #cc0000;
 }
 .topnav {
   overflow: hidden;
   background-color:#e60000;
-  font-size:30;
+  font-size:30px;
   }
 .topnav a:hover {
   background-color: #ddd;

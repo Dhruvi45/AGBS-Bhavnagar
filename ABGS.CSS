@@ -27,6 +27,7 @@ body
 .topnav {
   overflow: hidden;
   background-color:#e60000;
+  font-size:10px;
   }
 .topnav a:hover {
   background-color: #ddd;

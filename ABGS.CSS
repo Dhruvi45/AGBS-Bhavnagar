@@ -1,6 +1,7 @@
 body
 {
 	background: #555;
+	margin:0;
 }
 .content 
 {
@@ -8,7 +9,8 @@ body
 	margin: auto;
 	background: white;
 	padding: 20px;
-	background: linear-gradient(to bottom,  #ff6600 0%, #ffff66 100%);
+	color: #cc0000;
+	
 }
 .logo
 {
@@ -20,7 +22,7 @@ body
 	text-align:center;
 	font-size:30px;
 	font-weight: bold;
-	
+	color: #cc0000;
 }
 .topnav {
   overflow: hidden;
@@ -45,6 +47,11 @@ p{
 	text-indent:75px;
 	font-weight: bold;
 	font-size:15px;
+	margin:0;
+}
+p::first-letter {
+  font-size: 200%;
+  
 }
 li{
 	list-style-position: inside;

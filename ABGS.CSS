@@ -9,7 +9,7 @@ body
 	margin: auto;
 	background: white;
 	padding: 20px;
-	color: #cc0000;
+	
 	
 }
 .logo
@@ -20,7 +20,7 @@ body
 .title
 {
 	text-align:center;
-	font-size:30px;
+	font-size:20px;
 	font-weight: bold;
 	color: #cc0000;
 }
@@ -46,17 +46,16 @@ body
 p{
 	text-indent:75px;
 	font-weight: bold;
-	font-size:15px;
 	margin:0;
 }
 p::first-letter {
-  font-size: 200%;
+  font-size: 100%;
   
 }
 li{
 	list-style-position: inside;
 	margin-left: 00; padding-left: 40px;
 	font-weight: bold;
-	font-size:22px;
+	font-size:15px;
 }
 

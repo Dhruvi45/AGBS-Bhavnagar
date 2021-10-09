@@ -1,32 +1,79 @@
 <!doctype html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ABGS,Bhavnagar">
+  <meta name="keywords" content="ABGS,Bhavnagar">
 <title>ABGS,Bhavnagar
 </title>
 <style>
 </style>
-<link rel="stylesheet" href="ABGS.css">
+<link rel="stylesheet" href="sship.css">
 </head>
 <body>
-<div class="content">
-<div class="logo">
-<img src="logo1.png" width="150" hight="150">
-</div>
-<div class="title">
-<br>
-અખિલ ભારતીય ઔદીચ્ય ગઢિયા બ્રહ્મસમાજ,<br>ભાવનગર
-
-</div>
-<br>
-<div class="topnav">
-<a href="home.html" target="_blank">ઘર</a> 
-<a href="holder.html" target="_blank">હોદેદારો</a> 
-<a href="member.html" target="_blank">સભ્યો</a>  
-<a href="yajman.html" target="_blank">યજમાન</a> 
-<a href="fund.html" target="_blank">ભંડોળ</a>  
-<a href="sship.html" target="_blank">શિષ્યવૃત્તિ</a> 
-</div>
-
-</div>
+    <div class="head">
+        <img id="logo" src="logo.png"><br>
+        <p id="title">અખિલ ભારતીય ઔદીચ્ય ગઢિયા બ્રહ્મસમાજ, ભાવનગર</p>
+        <nav>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <ul >
+            <li><a href="home.html" ><img src="home.jpg" width="30px" height="30px"></a> </li>
+            <li><a href="member.html" >સભ્યો</a>  </li>
+            <li><a href="yajman.html" >યજમાન</a> </li>
+            <li><a href="fund.html" >ભંડોળ</a>  </li>
+            <li><a href="sship.html" >શિષ્યવૃત્તિ</a> </li>
+            <li><a href="contect.html" >સંપર્ક</a> </li>
+            
+          </ul>
+        </nav>
+        <br>
+      </div>
+      <div>
+        <p>
+          તારીખ ૧૩/૧૦/૨૦૧૮ રવિવાર શરદપૂનમન ના રોજ ભાવનગર ઘટક દ્વારા પ્રથમ પારિતોષિક વિતરણનો
+          સમારંભ આયોજિત કરવામાં આવેલ. જેમાં બાલમંદિરથી લયને કોલેજ કક્ષા સુધીના તમામ વિદ્યાર્થી પારિતોષિક 
+          આપી પ્રોત્સાહિત કરાયા.
+        </p>
+      </div>
+      <div class="w3-content w3-section" ALIGN="left" style="max-width:500px;">
+        <img class="mySlides" src="s1.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s2.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s3.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s4.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s6.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s5.jpg" style="width:15cm;height: 10cm;">        
+        <img class="mySlides" src="s8.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s9.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s11.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s12.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s13.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s14.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s15.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s17.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s16.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s18.jpg" style="width:15cm;height: 10cm;">
+        <img class="mySlides" src="s19.jpg" style="width:15cm;height: 10cm;">
+      </div>
+      <br><br><br>
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
 </body>
 </html>

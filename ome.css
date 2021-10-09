@@ -214,32 +214,17 @@ img {
   from {opacity: .4} 
   to {opacity: 1}
 }
-/*@media  (max-width: 480px){
+@media  (max-width: 480px){
     
-    .line {
-        width: 30px;
-        height: 3px;
-        background: blue;
-        margin: 5px;
-        
-    }
-    .hamburger {
-        position: absolute;
-        cursor: pointer;
-        margin-left: 20cm;
-        top: 15%;
-        transform: translate(-5%, -50%);
-        z-index: 2;
-    }
     #logo{
-        width: 160px;   
-        height: 160px;
-        margin-left: 1cm;
-        margin-top: 1cm;
-    }
+      width: 200px;
+      height: 200px;
+      margin-left: 1cm;
+ 
+    }   
     #title{
-        width: 500px;
-        margin-left: 6cm ;
+        width: 600px;
+        margin-left: 7cm ;
         margin-top: 1cm;
 	    font-size:30px;
 	    font-weight: bold;
@@ -247,74 +232,59 @@ img {
         display: block;
         
     }
+    nav ul li{
+      font-size: 30px;
+      
+  }
     nav{
-        overflow: hidden;
-        padding: 0;
-        
-        box-shadow: none;
+      margin-top: 1cm;
+      width: 25cm;
+      
+      
     }
-    nav ul li a:hover::after{
-        opacity: 0;
-    }
-    nav ul{
-        text-align: center;
-        
-        pointer-events: none;
-    }
-    nav ul.open {
-        background: red;
-        width: 70%;
-        margin-top: 1cm;
-        margin-left: 6cm;
-        margin-right: 6cm;
-        flex-direction: column;
-        pointer-events: all;
-        position: relative;
-    }
-    nav ul li {
-        opacity: 0;
-      }
-    nav ul li a {
-        font-size: 25px;
-        color:white;
-    }      
-    nav ul li.fade {
-        opacity: 1;
-    }
+    
+ 
     .slideshow-container {
-       margin-left: 0;
-       margin-top: .3cm;          
+      margin-left: 1.5cm;
+      margin-top: 1cm;
+       float: center;
+       position: relative;
+       overflow: hidden;
+       width: 22cm;   
+              
     }
-    .slideshow-container img {
-        
-        height: 20cm;
-        width: 100%;
-        
+    .slideshow-container img {       
+        height: 20cm;       
     }
+    .dot{
+     display: none;
+    } 
+
     .hetu{
         background-color: #d6e22bce;
        width:231%;
+       font-size: 70px;
     }
     .tit{
         padding-top: .5cm;
         padding-bottom:.5cm;
-        font-size: 30px;
+        font-size: 90px;
         
         
         background-color: burlywood;
-        padding-left: 4cm;
-        padding-right: 3cm;
-        padding-top: 4cm;
-        padding-bottom: 4cm;
+        padding-left: 2cm;
+        padding-right: 1.5cm;
+        padding-top: 2cm;
+        padding-bottom: 2cm;
         
         
         clip-path: polygon(0 0,60% 0%, 100% 50%, 60% 100%, 0% 100%);
         
     }
     .det{
-        font-size: 25px;
-        padding-left: 10cm;
-        padding-top: 1.6cm;
+        font-size: 70px;
+        padding-left: 1.5cm;
+        padding-top: 8cm;
         padding-bottom: 1.7cm;
         
         
@@ -323,27 +293,29 @@ img {
         padding-top: 1cm;
         background-color: #c95a3ece;
         overflow: hidden;
+        width: 25cm;
     }
     .wrapper h1{
         
-        font-size: 24px;
+        font-size: 48px;
         margin-bottom: 20px;
         text-align: center;
       }
       .team{
         
-        justify-content: center;
         
-        text-align: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+        
+        
+        
       }
       
       .team .team_member{
           
-          margin: 5px;
-          
-         
-          
+          flex-direction: column;
+          display: flex;
+          align-items: center;   
+          margin-left: 9cm;
           line-height: 10px;
           color: #000000;  
           position: relative;
@@ -351,14 +323,23 @@ img {
       
       .team .team_member h3{
         color: #ffffff;
-        font-size: 20px;
-        margin-top: 190px;
+        font-size: 50px;
+        margin-top: 390px;
+        width: 1000px;
+        padding-top: 1cm;
+        
       }
       
       .team .team_member p.role{
         color: rgb(0, 0, 0);
         
-        font-size: 16px;
+        font-size: 40px;
+        text-transform: uppercase;
+      }
+      .team .team_member p.mo{
+        color: rgb(0, 0, 0);
+        
+        font-size: 40px;
         text-transform: uppercase;
       }
       
@@ -366,18 +347,19 @@ img {
         position: absolute;
         top: 10px;
         left: 50%;
+        
         transform: translateX(-50%);
-        width: 150px;
-        height: 150px;
+        width: 350px;
+        height: 350px;
         
         background: #fff;
       }
       
       .team .team_member .team_img img{
-        width: 150px;
-        height: 150px;
+        width: 350px;
+        height: 350px;
         padding: 5px;
       }
     
-}
-*/
+
+    }

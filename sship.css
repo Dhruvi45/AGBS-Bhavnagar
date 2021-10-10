@@ -75,8 +75,40 @@ nav ul li a:hover::after{
     display:none;
     margin-left: 10cm;
 }
-#de{
-    margin-left: 30px;
-    text-indent: 70px;
-    font-size: 30px;
+@media  (max-width: 480px){
+    #logo{
+        width: 200px;
+        height: 200px;
+        margin-left: 1cm;
+   
+      }   
+      #title{
+          width: 600px;
+          margin-left: 7cm ;
+          margin-top: 1cm;
+          font-size:30px;
+          font-weight: bold;
+          color: #cc0000;
+          display: block;
+          
+      }
+      nav ul li{
+        font-size: 30px;
+        
+    }
+      nav{
+        margin-top: 1cm;
+        width: 25cm;
+        
+        
+      }
+      .mySlides {
+        display:none;
+        margin-left: 5cm;
+        height:30cm ;
+        width: 40cm;
+    }
+    #de{
+        width: 900px;
+    }
 }

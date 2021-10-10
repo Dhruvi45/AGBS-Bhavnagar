@@ -101,3 +101,44 @@ h4{
     font-size: 30px;
     margin-left: 30px;
 }
+@media  (max-width: 480px){
+    #logo{
+        width: 200px;
+        height: 200px;
+        margin-left: 1cm;
+   
+      }   
+      #title{
+          width: 600px;
+          margin-left: 7cm ;
+          margin-top: 1cm;
+          font-size:30px;
+          font-weight: bold;
+          color: #cc0000;
+          display: block;
+          
+      }
+      nav ul li{
+        font-size: 30px;
+        
+    }
+      nav{
+        margin-top: 1cm;
+        width: 25cm;
+        
+        
+      }
+      h4{
+        font-size: 25px;
+        margin-left: 30px;
+        width: 800px;
+    }
+    #y {
+        font-size: 30px;
+        margin-left:2cm ; 
+      
+        border-collapse: collapse;
+        width: 800px;
+      }
+    
+}
